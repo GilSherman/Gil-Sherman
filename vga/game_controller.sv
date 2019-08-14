@@ -7,6 +7,7 @@ module	game_controller	(
 					input	logic	drawing_request_1, //number drawing request
 					input	logic	drawing_request_2, //smiley drawing request
 
+
 					output logic collision
 );
 
