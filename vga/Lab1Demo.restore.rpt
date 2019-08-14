@@ -1,0 +1,129 @@
+Restore Archived Project report for Lab1Demo
+Wed Aug 14 15:58:33 2019
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Wed Aug 14 15:58:33 2019 ;
+; Revision Name                   ; Lab1Demo                              ;
+; Top-level Entity Name           ; TOP_VGA_DEMO_WITH_MSS_ALL             ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/gilys/Desktop/MABADAA/proyect/vga (1).qar' into the 'C:\\Users\\gilys\\Desktop\\MABADAA\\proyect/' directory
+Info: Generated report 'Lab1Demo.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4777 megabytes
+    Info: Processing ended: Wed Aug 14 15:58:33 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++-----------------------------------------------------------+
+; Files Restored                                            ;
++-----------------------------------------------------------+
+; File Name                                                 ;
++-----------------------------------------------------------+
+; qar_info.json                                             ;
+; Debug/keyval1.bsf                                         ;
+; Debug/keyval1.qip                                         ;
+; Debug/keyval1.v                                           ;
+; Debug/keyval1_bb.v                                        ;
+; Debug/keyval2.bsf                                         ;
+; Debug/keyval2.qip                                         ;
+; Debug/keyval2.v                                           ;
+; Debug/keyval2_bb.v                                        ;
+; Debug/pin.tcl                                             ;
+; Debug/pinRand.tcl                                         ;
+; Debug/rtl/HexSS.sv                                        ;
+; Debug/rtl/KBDINTF.bdf                                     ;
+; Debug/rtl/TOP_KBDINTF.bdf                                 ;
+; Debug/rtl/TOP_KBD_DEMO.bdf                                ;
+; Debug/rtl/TOP_KBD_DEMOALL.bdf                             ;
+; Debug/rtl/TOP_RANDOM.bdf                                  ;
+; Debug/rtl/bitrec.sv                                       ;
+; Debug/rtl/byterec.sv                                      ;
+; Debug/rtl/keyToggle_decoder.sv                            ;
+; Debug/rtl/lpf.sv                                          ;
+; Debug/rtl/random.sv                                       ;
+; vga/DE10_Standard_Audio.sdc                               ;
+; vga/Lab1Demo.qpf                                          ;
+; vga/Lab1Demo.qsf                                          ;
+; vga/RTL/KEYBOARD/keyPad_decoder.sv                        ;
+; vga/RTL/MSS/SinTable.sv                                   ;
+; vga/RTL/MSS/TOP_MSS_DEMO.bdf                              ;
+; vga/RTL/MSS/ToneDecoder.sv                                ;
+; vga/RTL/MSS/addr_counter.sv                               ;
+; vga/RTL/MSS/data_conversion.sv                            ;
+; vga/RTL/MSS/prescaler.sv                                  ;
+; vga/RTL/Seg7/SEG7.SV                                      ;
+; vga/RTL/VGA/NumbersBitMap.sv                              ;
+; vga/RTL/VGA/TOP_VGA_DEMO_WITH_MSS.bdf                     ;
+; vga/RTL/VGA/TOP_VGA_DEMO_WITH_MSS_ALL.bdf                 ;
+; vga/RTL/VGA/VGA_Controller.sv                             ;
+; vga/RTL/VGA/back_ground_draw.sv                           ;
+; vga/RTL/VGA/back_ground_drawSquare.sv                     ;
+; vga/RTL/VGA/objects_mux.sv                                ;
+; vga/RTL/VGA/smileyBitMap.sv                               ;
+; vga/RTL/VGA/smileyBitMapX2.sv                             ;
+; vga/RTL/VGA/smileyface_move.sv                            ;
+; vga/RTL/VGA/square_object.sv                              ;
+; vga/RTL/audio_codec_controller/audio_codec_controller.qxp ;
+; vga/assignment_defaults.qdf                               ;
+; vga/constraints/DE10_Standard_Audio.sdc                   ;
+; vga/constraints/pin.tcl                                   ;
+; vga/game_controller.sv                                    ;
+; vga/output_files/Chain1.cdf                               ;
+; vga/stp2.stp                                              ;
+; vga/topLeftX.bsf                                          ;
+; vga/topLeftX.qip                                          ;
+; vga/topLeftX.v                                            ;
+; vga/topLeftX_bb.v                                         ;
++-----------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
