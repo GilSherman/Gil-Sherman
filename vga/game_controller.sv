@@ -4,8 +4,8 @@
 module	game_controller	(	
 					input	logic	clk,
 					input	logic	resetN,
-					input	logic	drawing_request_1, 
-					input	logic	drawing_request_2,
+					input	logic	drawing_request_1, //number drawing request
+					input	logic	drawing_request_2, // smiley drawing request
 
 					output logic collision
 );
