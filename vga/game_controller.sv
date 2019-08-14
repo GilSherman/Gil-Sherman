@@ -2,13 +2,13 @@
 //detecting collisions
 
 module	game_controller	(	
-					input	logic	clk,
-					input	logic	resetN,
-					input	logic	drawing_request_1, //number drawing request
-					input	logic	drawing_request_2, //smiley drawing request
+		input	logic	clk,
+		input	logic	resetN,
+		input	logic	drawing_request_1, //number drawing request
+		input	logic	drawing_request_2, //smiley drawing request
 
 
-					output logic collision
+		output logic collision
 );
 
 logic collisionDetected;

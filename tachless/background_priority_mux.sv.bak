@@ -1,0 +1,14 @@
+//MODUL_NAME
+//this is a comment
+
+module	MODUL_NAME	(	
+		input	logic	clk,
+		input	logic	resetN,
+		input	logic	input_1, //some other comment
+		input	logic	input_2, //a third comment
+
+
+		output logic output1 //this is the output
+);
+
+endmodule

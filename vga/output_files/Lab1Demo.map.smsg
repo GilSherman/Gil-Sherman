@@ -1,0 +1,4 @@
+Warning (10268): Verilog HDL information at lpf.sv(42): always construct contains both blocking and non-blocking assignments File: C:/Users/gilys/Desktop/MABADAA/proyect/Debug/rtl/lpf.sv Line: 42
+Warning (10268): Verilog HDL information at byterec.sv(68): always construct contains both blocking and non-blocking assignments File: C:/Users/gilys/Desktop/MABADAA/proyect/Debug/rtl/byterec.sv Line: 68
+Warning (10268): Verilog HDL information at smileyface_move.sv(63): always construct contains both blocking and non-blocking assignments File: C:/Users/gilys/Desktop/MABADAA/proyect/vga/RTL/VGA/smileyface_move.sv Line: 63
+Warning (10268): Verilog HDL information at square_object.sv(38): always construct contains both blocking and non-blocking assignments File: C:/Users/gilys/Desktop/MABADAA/proyect/vga/RTL/VGA/square_object.sv Line: 38

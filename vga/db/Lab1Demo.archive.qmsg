@@ -1,0 +1,56 @@
+{ "Info" "0" "" "File Set 'Source control' contains:" { { "Info" "0" "" "Project source and settings files" {  } {  } 0 0 "Project source and settings files" 0 0 "0" 0 0 1565808159922 ""} { "Info" "0" "" "Automatically detected source files" {  } {  } 0 0 "Automatically detected source files" 0 0 "0" 0 0 1565808159922 ""}  } {  } 0 0 "File Set 'Source control' contains:" 0 0 "Shell" 0 0 1565808159922 ""}
+{ "Critical Warning" "0" "" "Analysis & Elaboration was not run successfully." { { "Critical Warning" "0" "" "The 'Automatically detected source files' file subset will attempt to guess which files are needed. The archive file will likely be larger than required and may still be incomplete." {  } {  } 1 0 "The 'Automatically detected source files' file subset will attempt to guess which files are needed. The archive file will likely be larger than required and may still be incomplete." 0 0 "0" 0 0 1565808160031 ""}  } {  } 1 0 "Analysis & Elaboration was not run successfully." 0 0 "Shell" 0 0 1565808160031 ""}
+{ "Warning" "WPRJ_ARC_TCL_TCL_PROJECT_NOT_COMPILED" "" "Analysis was not performed on the current project. The Quartus Prime software may not be able to automatically locate all project files." {  } {  } 0 225010 "Analysis was not performed on the current project. The Quartus Prime software may not be able to automatically locate all project files." 0 0 "Shell" 0 -1 1565808160031 ""}
+{ "Info" "0" "" "Parsing: topLeftX_bb.v" {  } {  } 0 0 "Parsing: topLeftX_bb.v" 0 0 "Shell" 0 0 1565808160391 ""}
+{ "Info" "0" "" "Parsing: ../tachless/Lab1Demo.sv" {  } {  } 0 0 "Parsing: ../tachless/Lab1Demo.sv" 0 0 "Shell" 0 0 1565808160391 ""}
+{ "Info" "0" "" "Parsing: ../tachless/ALL_TIME.sv" {  } {  } 0 0 "Parsing: ../tachless/ALL_TIME.sv" 0 0 "Shell" 0 0 1565808160391 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/TOP_RANDOM.bdf" {  } {  } 0 0 "Parsing: ../Debug/rtl/TOP_RANDOM.bdf" 0 0 "Shell" 0 0 1565808160406 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/TOP_KBDINTF.bdf" {  } {  } 0 0 "Parsing: ../Debug/rtl/TOP_KBDINTF.bdf" 0 0 "Shell" 0 0 1565808160406 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/TOP_KBD_DEMO.bdf" {  } {  } 0 0 "Parsing: ../Debug/rtl/TOP_KBD_DEMO.bdf" 0 0 "Shell" 0 0 1565808160406 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/random.sv" {  } {  } 0 0 "Parsing: ../Debug/rtl/random.sv" 0 0 "Shell" 0 0 1565808160422 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/lpf.sv" {  } {  } 0 0 "Parsing: ../Debug/rtl/lpf.sv" 0 0 "Shell" 0 0 1565808160422 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/keyToggle_decoder.sv" {  } {  } 0 0 "Parsing: ../Debug/rtl/keyToggle_decoder.sv" 0 0 "Shell" 0 0 1565808160422 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/KBDINTF.bdf" {  } {  } 0 0 "Parsing: ../Debug/rtl/KBDINTF.bdf" 0 0 "Shell" 0 0 1565808160422 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/HexSS.sv" {  } {  } 0 0 "Parsing: ../Debug/rtl/HexSS.sv" 0 0 "Shell" 0 0 1565808160437 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/byterec.sv" {  } {  } 0 0 "Parsing: ../Debug/rtl/byterec.sv" 0 0 "Shell" 0 0 1565808160437 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/bitrec.sv" {  } {  } 0 0 "Parsing: ../Debug/rtl/bitrec.sv" 0 0 "Shell" 0 0 1565808160437 ""}
+{ "Info" "0" "" "Parsing: ../Debug/keyval2.v" {  } {  } 0 0 "Parsing: ../Debug/keyval2.v" 0 0 "Shell" 0 0 1565808160437 ""}
+{ "Info" "0" "" "Parsing: ../Debug/keyval2_bb.v" {  } {  } 0 0 "Parsing: ../Debug/keyval2_bb.v" 0 0 "Shell" 0 0 1565808160453 ""}
+{ "Info" "0" "" "Parsing: ../Debug/keyval1.v" {  } {  } 0 0 "Parsing: ../Debug/keyval1.v" 0 0 "Shell" 0 0 1565808160453 ""}
+{ "Info" "0" "" "Parsing: ../Debug/keyval1_bb.v" {  } {  } 0 0 "Parsing: ../Debug/keyval1_bb.v" 0 0 "Shell" 0 0 1565808160453 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/TOP_VGA_DEMO_WITH_MSS.bdf" {  } {  } 0 0 "Parsing: RTL/VGA/TOP_VGA_DEMO_WITH_MSS.bdf" 0 0 "Shell" 0 0 1565808160469 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/smileyface_move.sv" {  } {  } 0 0 "Parsing: RTL/VGA/smileyface_move.sv" 0 0 "Shell" 0 0 1565808160469 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/square_object.sv" {  } {  } 0 0 "Parsing: RTL/VGA/square_object.sv" 0 0 "Shell" 0 0 1565808160484 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/smileyBitMap.sv" {  } {  } 0 0 "Parsing: RTL/VGA/smileyBitMap.sv" 0 0 "Shell" 0 0 1565808160484 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/objects_mux.sv" {  } {  } 0 0 "Parsing: RTL/VGA/objects_mux.sv" 0 0 "Shell" 0 0 1565808160484 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/VGA_Controller.sv" {  } {  } 0 0 "Parsing: RTL/VGA/VGA_Controller.sv" 0 0 "Shell" 0 0 1565808160484 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/back_ground_draw.sv" {  } {  } 0 0 "Parsing: RTL/VGA/back_ground_draw.sv" 0 0 "Shell" 0 0 1565808160500 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/NumbersBitMap.sv" {  } {  } 0 0 "Parsing: RTL/VGA/NumbersBitMap.sv" 0 0 "Shell" 0 0 1565808160500 ""}
+{ "Info" "0" "" "Parsing: RTL/MSS/ToneDecoder.sv" {  } {  } 0 0 "Parsing: RTL/MSS/ToneDecoder.sv" 0 0 "Shell" 0 0 1565808160500 ""}
+{ "Info" "0" "" "Parsing: RTL/MSS/TOP_MSS_DEMO.bdf" {  } {  } 0 0 "Parsing: RTL/MSS/TOP_MSS_DEMO.bdf" 0 0 "Shell" 0 0 1565808160500 ""}
+{ "Info" "0" "" "Parsing: RTL/MSS/SinTable.sv" {  } {  } 0 0 "Parsing: RTL/MSS/SinTable.sv" 0 0 "Shell" 0 0 1565808160516 ""}
+{ "Info" "0" "" "Parsing: RTL/MSS/prescaler.sv" {  } {  } 0 0 "Parsing: RTL/MSS/prescaler.sv" 0 0 "Shell" 0 0 1565808160516 ""}
+{ "Info" "0" "" "Parsing: RTL/MSS/data_conversion.sv" {  } {  } 0 0 "Parsing: RTL/MSS/data_conversion.sv" 0 0 "Shell" 0 0 1565808160516 ""}
+{ "Info" "0" "" "Parsing: RTL/MSS/addr_counter.sv" {  } {  } 0 0 "Parsing: RTL/MSS/addr_counter.sv" 0 0 "Shell" 0 0 1565808160531 ""}
+{ "Info" "0" "" "Parsing: RTL/Seg7/SEG7.SV" {  } {  } 0 0 "Parsing: RTL/Seg7/SEG7.SV" 0 0 "Shell" 0 0 1565808160531 ""}
+{ "Info" "0" "" "Parsing: RTL/KEYBOARD/keyPad_decoder.sv" {  } {  } 0 0 "Parsing: RTL/KEYBOARD/keyPad_decoder.sv" 0 0 "Shell" 0 0 1565808160531 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/TOP_VGA_DEMO_WITH_MSS_ALL.bdf" {  } {  } 0 0 "Parsing: RTL/VGA/TOP_VGA_DEMO_WITH_MSS_ALL.bdf" 0 0 "Shell" 0 0 1565808160531 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/back_ground_drawSquare.sv" {  } {  } 0 0 "Parsing: RTL/VGA/back_ground_drawSquare.sv" 0 0 "Shell" 0 0 1565808160547 ""}
+{ "Info" "0" "" "Parsing: RTL/VGA/smileyBitMapX2.sv" {  } {  } 0 0 "Parsing: RTL/VGA/smileyBitMapX2.sv" 0 0 "Shell" 0 0 1565808160547 ""}
+{ "Info" "0" "" "Parsing: ../Debug/rtl/TOP_KBD_DEMOALL.bdf" {  } {  } 0 0 "Parsing: ../Debug/rtl/TOP_KBD_DEMOALL.bdf" 0 0 "Shell" 0 0 1565808160547 ""}
+{ "Info" "0" "" "Parsing: topLeftX.v" {  } {  } 0 0 "Parsing: topLeftX.v" 0 0 "Shell" 0 0 1565808160562 ""}
+{ "Info" "0" "" "Parsing: game_controller.sv" {  } {  } 0 0 "Parsing: game_controller.sv" 0 0 "Shell" 0 0 1565808160562 ""}
+{ "Info" "0" "" "Parsing: ../tachless/TOP_LVL.bdf" {  } {  } 0 0 "Parsing: ../tachless/TOP_LVL.bdf" 0 0 "Shell" 0 0 1565808160562 ""}
+{ "Info" "0" "" "Parsing: ../tachless/background_priority_mux.sv" {  } {  } 0 0 "Parsing: ../tachless/background_priority_mux.sv" 0 0 "Shell" 0 0 1565808160578 ""}
+{ "Info" "0" "" "Parsing: dynamic_object_priority_mux.sv" {  } {  } 0 0 "Parsing: dynamic_object_priority_mux.sv" 0 0 "Shell" 0 0 1565808160578 ""}
+{ "Info" "0" "" "Parsing: ../tachless/enemy_generator.sv" {  } {  } 0 0 "Parsing: ../tachless/enemy_generator.sv" 0 0 "Shell" 0 0 1565808160578 ""}
+{ "Info" "0" "" "Archive will store files relative to the closest common parent directory" {  } {  } 0 0 "Archive will store files relative to the closest common parent directory" 0 0 "Shell" 0 0 1565808160594 ""}
+{ "Info" "IPRJ_ARC_TCL_TCL_USING_COMMON_DIR" "C:/Users/gilys/Desktop/MABADAA/proyect/ " "Using common directory C:/Users/gilys/Desktop/MABADAA/proyect/" {  } {  } 0 13213 "Using common directory %1!s!" 0 0 "Shell" 0 -1 1565808160640 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1565808160765 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1565808160765 ""}
+{ "Info" "0" "" "Generated archive 'C:/Users/gilys/Desktop/MABADAA/proyect/vga/proyect.qar'" {  } {  } 0 0 "Generated archive 'C:/Users/gilys/Desktop/MABADAA/proyect/vga/proyect.qar'" 0 0 "Shell" 0 0 1565808160765 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1565808160765 ""}
+{ "Info" "0" "" "----------------------------------------------------------" {  } {  } 0 0 "----------------------------------------------------------" 0 0 "Shell" 0 0 1565808160765 ""}
+{ "Info" "0" "" "Generated report 'Lab1Demo.archive.rpt'" {  } {  } 0 0 "Generated report 'Lab1Demo.archive.rpt'" 0 0 "Shell" 0 0 1565808160766 ""}
+{ "Error" "EQEXE_TCL_SCRIPT_STATUS" "c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl " "Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl unsuccessful" {  } {  } 0 23031 "Evaluation of Tcl script %1!s! unsuccessful" 0 0 "Shell" 0 -1 1565808160780 ""}
+{ "Error" "EQEXE_ERROR_COUNT" "Shell 4 s 3 s Quartus Prime " "Quartus Prime Shell was unsuccessful. 4 errors, 3 warnings" { { "Error" "EQEXE_END_PEAK_VSIZE_MEMORY" "4784 " "Peak virtual memory: 4784 megabytes" {  } {  } 0 0 "Peak virtual memory: %1!s! megabytes" 0 0 "Design Software" 0 -1 1565808160780 ""} { "Error" "EQEXE_END_BANNER_TIME" "Wed Aug 14 21:42:40 2019 " "Processing ended: Wed Aug 14 21:42:40 2019" {  } {  } 0 0 "Processing ended: %1!s!" 0 0 "Design Software" 0 -1 1565808160780 ""} { "Error" "EQEXE_ELAPSED_TIME" "00:00:14 " "Elapsed time: 00:00:14" {  } {  } 0 0 "Elapsed time: %1!s!" 0 0 "Design Software" 0 -1 1565808160780 ""} { "Error" "EQEXE_ELAPSED_CPU_TIME" "00:00:27 " "Total CPU time (on all processors): 00:00:27" {  } {  } 0 0 "Total CPU time (on all processors): %1!s!" 0 0 "Design Software" 0 -1 1565808160780 ""}  } {  } 0 0 "%6!s! %1!s! was unsuccessful. %2!d! error%3!s!, %4!d! warning%5!s!" 0 0 "Shell" 0 -1 1565808160780 ""}
