@@ -19,12 +19,15 @@ module enemy_generator(
 	//for bigger project
 		output logic generateInstance,		//enables an istance display
 		output logic [3:0] newType, 			//connection to each instance
-		output logic [3:0] newLocation		//connection to each instance
+		output logic [10:0] newLocation		//connection to each instance
 		
 );
 
+		
 
-//fill your code here
-
+	
+assign generateInstance = generateNew;
+assign newType = 4'b1;
+assign newLocation = 11'b1000000;
 
 endmodule

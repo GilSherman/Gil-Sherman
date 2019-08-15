@@ -1,10 +1,10 @@
-// megafunction wizard: %LPM_CONSTANT%
+// megafunction wizard: %LPM_CONSTANT%VBB%
 // GENERATION: STANDARD
 // VERSION: WM1.0
 // MODULE: LPM_CONSTANT 
 
 // ============================================================
-// File Name: topLeftX.v
+// File Name: basicBackground.v
 // Megafunction Name(s):
 // 			LPM_CONSTANT
 //
@@ -16,7 +16,6 @@
 //
 // 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 // ************************************************************
-
 
 //Copyright (C) 2017  Intel Corporation. All rights reserved.
 //Your use of Intel Corporation's design tools, logic functions 
@@ -33,26 +32,10 @@
 //authorized distributors.  Please refer to the applicable 
 //agreement for further details.
 
-
-// synopsys translate_off
-`timescale 1 ps / 1 ps
-// synopsys translate_on
-module topLeftX (
+module basicBackground (
 	result);
 
-	output	[10:0]  result;
-
-	wire [10:0] sub_wire0;
-	wire [10:0] result = sub_wire0[10:0];
-
-	lpm_constant	LPM_CONSTANT_component (
-				.result (sub_wire0));
-	defparam
-		LPM_CONSTANT_component.lpm_cvalue = 210,
-		LPM_CONSTANT_component.lpm_hint = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=topX",
-		LPM_CONSTANT_component.lpm_type = "LPM_CONSTANT",
-		LPM_CONSTANT_component.lpm_width = 11;
-
+	output	[7:0]  result;
 
 endmodule
 
@@ -61,23 +44,23 @@ endmodule
 // ============================================================
 // Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Cyclone V"
 // Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "1"
-// Retrieval info: PRIVATE: JTAG_ID STRING "topX"
+// Retrieval info: PRIVATE: JTAG_ID STRING "bgnd"
 // Retrieval info: PRIVATE: Radix NUMERIC "10"
 // Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
-// Retrieval info: PRIVATE: Value NUMERIC "210"
-// Retrieval info: PRIVATE: nBit NUMERIC "11"
+// Retrieval info: PRIVATE: Value NUMERIC "255"
+// Retrieval info: PRIVATE: nBit NUMERIC "8"
 // Retrieval info: PRIVATE: new_diagram STRING "1"
 // Retrieval info: LIBRARY: lpm lpm.lpm_components.all
-// Retrieval info: CONSTANT: LPM_CVALUE NUMERIC "210"
-// Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=topX"
+// Retrieval info: CONSTANT: LPM_CVALUE NUMERIC "255"
+// Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=bgnd"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_CONSTANT"
-// Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "11"
-// Retrieval info: USED_PORT: result 0 0 11 0 OUTPUT NODEFVAL "result[10..0]"
-// Retrieval info: CONNECT: result 0 0 11 0 @result 0 0 11 0
-// Retrieval info: GEN_FILE: TYPE_NORMAL topLeftX.v TRUE
-// Retrieval info: GEN_FILE: TYPE_NORMAL topLeftX.inc FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL topLeftX.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL topLeftX.bsf TRUE
-// Retrieval info: GEN_FILE: TYPE_NORMAL topLeftX_inst.v FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL topLeftX_bb.v TRUE
+// Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
+// Retrieval info: USED_PORT: result 0 0 8 0 OUTPUT NODEFVAL "result[7..0]"
+// Retrieval info: CONNECT: result 0 0 8 0 @result 0 0 8 0
+// Retrieval info: GEN_FILE: TYPE_NORMAL basicBackground.v TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL basicBackground.inc FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL basicBackground.cmp FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL basicBackground.bsf TRUE
+// Retrieval info: GEN_FILE: TYPE_NORMAL basicBackground_inst.v FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL basicBackground_bb.v TRUE
 // Retrieval info: LIB_FILE: lpm

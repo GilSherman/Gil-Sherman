@@ -48,8 +48,8 @@ agreement for further details.
 	(port
 		(pt 0 80)
 		(input)
-		(text "player[7..0]" (rect 0 0 44 12)(font "Arial" ))
-		(text "player[7..0]" (rect 21 75 65 87)(font "Arial" ))
+		(text "playerRGB[7..0]" (rect 0 0 66 12)(font "Arial" ))
+		(text "playerRGB[7..0]" (rect 21 75 87 87)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
@@ -62,8 +62,8 @@ agreement for further details.
 	(port
 		(pt 0 112)
 		(input)
-		(text "missile[7..0]" (rect 0 0 46 12)(font "Arial" ))
-		(text "missile[7..0]" (rect 21 107 67 119)(font "Arial" ))
+		(text "missileRGB[7..0]" (rect 0 0 67 12)(font "Arial" ))
+		(text "missileRGB[7..0]" (rect 21 107 88 119)(font "Arial" ))
 		(line (pt 0 112)(pt 16 112)(line_width 3))
 	)
 	(port
@@ -76,8 +76,8 @@ agreement for further details.
 	(port
 		(pt 0 144)
 		(input)
-		(text "monster[7..0]" (rect 0 0 53 12)(font "Arial" ))
-		(text "monster[7..0]" (rect 21 139 74 151)(font "Arial" ))
+		(text "monsterRGB[7..0]" (rect 0 0 74 12)(font "Arial" ))
+		(text "monsterRGB[7..0]" (rect 21 139 95 151)(font "Arial" ))
 		(line (pt 0 144)(pt 16 144)(line_width 3))
 	)
 	(port

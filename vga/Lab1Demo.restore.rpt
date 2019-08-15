@@ -1,5 +1,5 @@
 Restore Archived Project report for Lab1Demo
-Wed Aug 14 15:58:33 2019
+Thu Aug 15 16:43:06 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -37,9 +37,9 @@ agreement for further details.
 +-------------------------------------------------------------------------+
 ; Restore Archived Project Summary                                        ;
 +---------------------------------+---------------------------------------+
-; Restore Archived Project Status ; Successful - Wed Aug 14 15:58:33 2019 ;
+; Restore Archived Project Status ; Successful - Thu Aug 15 16:43:06 2019 ;
 ; Revision Name                   ; Lab1Demo                              ;
-; Top-level Entity Name           ; TOP_VGA_DEMO_WITH_MSS_ALL             ;
+; Top-level Entity Name           ; space_object_move                     ;
 ; Family                          ; Cyclone V                             ;
 +---------------------------------+---------------------------------------+
 
@@ -47,77 +47,109 @@ agreement for further details.
 +-----------------------------------+
 ; Restore Archived Project Messages ;
 +-----------------------------------+
-Info: Successfully restored 'C:/Users/gilys/Desktop/MABADAA/proyect/vga (1).qar' into the 'C:\\Users\\gilys\\Desktop\\MABADAA\\proyect/' directory
+Info: Successfully restored 'C:/Users/talsh/Downloads/Lab1Demo.qar' into the 'C:\\Users\\talsh\\Desktop\\MABADAA\\proyect\\Gil-Sherman/' directory
 Info: Generated report 'Lab1Demo.restore.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4777 megabytes
-    Info: Processing ended: Wed Aug 14 15:58:33 2019
+    Info: Peak virtual memory: 4746 megabytes
+    Info: Processing ended: Thu Aug 15 16:43:06 2019
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
 
 
-+-----------------------------------------------------------+
-; Files Restored                                            ;
-+-----------------------------------------------------------+
-; File Name                                                 ;
-+-----------------------------------------------------------+
-; qar_info.json                                             ;
-; Debug/keyval1.bsf                                         ;
-; Debug/keyval1.qip                                         ;
-; Debug/keyval1.v                                           ;
-; Debug/keyval1_bb.v                                        ;
-; Debug/keyval2.bsf                                         ;
-; Debug/keyval2.qip                                         ;
-; Debug/keyval2.v                                           ;
-; Debug/keyval2_bb.v                                        ;
-; Debug/pin.tcl                                             ;
-; Debug/pinRand.tcl                                         ;
-; Debug/rtl/HexSS.sv                                        ;
-; Debug/rtl/KBDINTF.bdf                                     ;
-; Debug/rtl/TOP_KBDINTF.bdf                                 ;
-; Debug/rtl/TOP_KBD_DEMO.bdf                                ;
-; Debug/rtl/TOP_KBD_DEMOALL.bdf                             ;
-; Debug/rtl/TOP_RANDOM.bdf                                  ;
-; Debug/rtl/bitrec.sv                                       ;
-; Debug/rtl/byterec.sv                                      ;
-; Debug/rtl/keyToggle_decoder.sv                            ;
-; Debug/rtl/lpf.sv                                          ;
-; Debug/rtl/random.sv                                       ;
-; vga/DE10_Standard_Audio.sdc                               ;
-; vga/Lab1Demo.qpf                                          ;
-; vga/Lab1Demo.qsf                                          ;
-; vga/RTL/KEYBOARD/keyPad_decoder.sv                        ;
-; vga/RTL/MSS/SinTable.sv                                   ;
-; vga/RTL/MSS/TOP_MSS_DEMO.bdf                              ;
-; vga/RTL/MSS/ToneDecoder.sv                                ;
-; vga/RTL/MSS/addr_counter.sv                               ;
-; vga/RTL/MSS/data_conversion.sv                            ;
-; vga/RTL/MSS/prescaler.sv                                  ;
-; vga/RTL/Seg7/SEG7.SV                                      ;
-; vga/RTL/VGA/NumbersBitMap.sv                              ;
-; vga/RTL/VGA/TOP_VGA_DEMO_WITH_MSS.bdf                     ;
-; vga/RTL/VGA/TOP_VGA_DEMO_WITH_MSS_ALL.bdf                 ;
-; vga/RTL/VGA/VGA_Controller.sv                             ;
-; vga/RTL/VGA/back_ground_draw.sv                           ;
-; vga/RTL/VGA/back_ground_drawSquare.sv                     ;
-; vga/RTL/VGA/objects_mux.sv                                ;
-; vga/RTL/VGA/smileyBitMap.sv                               ;
-; vga/RTL/VGA/smileyBitMapX2.sv                             ;
-; vga/RTL/VGA/smileyface_move.sv                            ;
-; vga/RTL/VGA/square_object.sv                              ;
-; vga/RTL/audio_codec_controller/audio_codec_controller.qxp ;
-; vga/assignment_defaults.qdf                               ;
-; vga/constraints/DE10_Standard_Audio.sdc                   ;
-; vga/constraints/pin.tcl                                   ;
-; vga/game_controller.sv                                    ;
-; vga/output_files/Chain1.cdf                               ;
-; vga/stp2.stp                                              ;
-; vga/topLeftX.bsf                                          ;
-; vga/topLeftX.qip                                          ;
-; vga/topLeftX.v                                            ;
-; vga/topLeftX_bb.v                                         ;
-+-----------------------------------------------------------+
++--------------------------------------------------------------+
+; Files Restored                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; qar_info.json                                                ;
+; Debug/keyval1.bsf                                            ;
+; Debug/keyval1.qip                                            ;
+; Debug/keyval1.v                                              ;
+; Debug/keyval1_bb.v                                           ;
+; Debug/keyval2.bsf                                            ;
+; Debug/keyval2.qip                                            ;
+; Debug/keyval2.v                                              ;
+; Debug/keyval2_bb.v                                           ;
+; Debug/pin.tcl                                                ;
+; Debug/pinRand.tcl                                            ;
+; Debug/rtl/HexSS.sv                                           ;
+; Debug/rtl/KBDINTF.bdf                                        ;
+; Debug/rtl/TOP_KBDINTF.bdf                                    ;
+; Debug/rtl/TOP_KBD_DEMO.bdf                                   ;
+; Debug/rtl/TOP_KBD_DEMOALL.bdf                                ;
+; Debug/rtl/TOP_RANDOM.bdf                                     ;
+; Debug/rtl/bitrec.sv                                          ;
+; Debug/rtl/byterec.sv                                         ;
+; Debug/rtl/keyToggle_decoder.sv                               ;
+; Debug/rtl/lpf.sv                                             ;
+; Debug/rtl/random.sv                                          ;
+; tachless/ALL_TIME.sv                                         ;
+; tachless/Lab1Demo.sv                                         ;
+; tachless/TOP_LVL.bdf                                         ;
+; tachless/background_priority_mux.sv                          ;
+; tachless/dynamic_object_priority_mux.sv                      ;
+; tachless/enemy_generator.sv                                  ;
+; tachless/game_controller.sv                                  ;
+; tachless/missile_move.sv                                     ;
+; tachless/space_object_move.sv                                ;
+; tachless/spaceship_move.sv                                   ;
+; vga/ALL_TIME.bsf                                             ;
+; vga/DE10_Standard_Audio.sdc                                  ;
+; vga/Lab1Demo.qpf                                             ;
+; vga/Lab1Demo.qsf                                             ;
+; vga/Lab1Demo.restore.rpt                                     ;
+; vga/RTL/KEYBOARD/keyPad_decoder.sv                           ;
+; vga/RTL/MSS/SinTable.sv                                      ;
+; vga/RTL/MSS/TOP_MSS_DEMO.bdf                                 ;
+; vga/RTL/MSS/ToneDecoder.sv                                   ;
+; vga/RTL/MSS/addr_counter.sv                                  ;
+; vga/RTL/MSS/data_conversion.sv                               ;
+; vga/RTL/MSS/prescaler.sv                                     ;
+; vga/RTL/Seg7/SEG7.SV                                         ;
+; vga/RTL/VGA/NumbersBitMap.sv                                 ;
+; vga/RTL/VGA/TOP_VGA_DEMO_WITH_MSS.bdf                        ;
+; vga/RTL/VGA/TOP_VGA_DEMO_WITH_MSS_ALL.bdf                    ;
+; vga/RTL/VGA/VGA_Controller.sv                                ;
+; vga/RTL/VGA/back_ground_draw.sv                              ;
+; vga/RTL/VGA/back_ground_drawSquare.sv                        ;
+; vga/RTL/VGA/objects_mux.sv                                   ;
+; vga/RTL/VGA/player_object.sv                                 ;
+; vga/RTL/VGA/smileyBitMap.sv                                  ;
+; vga/RTL/VGA/smileyBitMapX2.sv                                ;
+; vga/RTL/VGA/smileyface_move.sv                               ;
+; vga/RTL/VGA/square_object.sv                                 ;
+; vga/RTL/audio_codec_controller/audio_codec_controller.qarlog ;
+; vga/RTL/audio_codec_controller/audio_codec_controller.qxp    ;
+; vga/assignment_defaults.qdf                                  ;
+; vga/background_priority_mux.bsf                              ;
+; vga/basicBackground.bsf                                      ;
+; vga/basicBackground.qip                                      ;
+; vga/basicBackground.v                                        ;
+; vga/basicBackground_bb.v                                     ;
+; vga/constraints/DE10_Standard_Audio.sdc                      ;
+; vga/constraints/pin.tcl                                      ;
+; vga/dynamic_object_priority_mux.bsf                          ;
+; vga/enemy_generator.bsf                                      ;
+; vga/missile_move.bsf                                         ;
+; vga/output_files/Chain1.cdf                                  ;
+; vga/output_files/Lab1Demo.done                               ;
+; vga/output_files/Lab1Demo.flow.rpt                           ;
+; vga/output_files/Lab1Demo.map.rpt                            ;
+; vga/output_files/Lab1Demo.map.smsg                           ;
+; vga/output_files/Lab1Demo.map.summary                        ;
+; vga/player_object.bsf                                        ;
+; vga/random.bsf                                               ;
+; vga/space_object_move.bsf                                    ;
+; vga/spaceship_move.bsf                                       ;
+; vga/square_object.bsf                                        ;
+; vga/stp2.stp                                                 ;
+; vga/topLeftXYZ.v                                             ;
+; vga/tplftx.bsf                                               ;
+; vga/tplftx.qip                                               ;
+; vga/tplftx.v                                                 ;
+; vga/tplftx_bb.v                                              ;
++--------------------------------------------------------------+
 
 
 +--------------------+

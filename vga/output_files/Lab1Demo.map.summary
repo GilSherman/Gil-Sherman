@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Failed - Wed Aug 14 21:42:39 2019
-Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+Analysis & Elaboration Status : Failed - Thu Aug 15 13:32:12 2019
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 Revision Name : Lab1Demo
-Top-level Entity Name : TOP_VGA_DEMO_WITH_MSS_ALL
+Top-level Entity Name : space_object_move
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

@@ -1,4 +1,4 @@
-// megafunction wizard: %LPM_CONSTANT%VBB%
+// megafunction wizard: %LPM_CONSTANT%
 // GENERATION: STANDARD
 // VERSION: WM1.0
 // MODULE: LPM_CONSTANT 
@@ -17,6 +17,7 @@
 // 17.0.0 Build 595 04/25/2017 SJ Standard Edition
 // ************************************************************
 
+
 //Copyright (C) 2017  Intel Corporation. All rights reserved.
 //Your use of Intel Corporation's design tools, logic functions 
 //and other software and tools, and its AMPP partner logic 
@@ -32,10 +33,26 @@
 //authorized distributors.  Please refer to the applicable 
 //agreement for further details.
 
-module topLeftX (
+
+// synopsys translate_off
+`timescale 1 ps / 1 ps
+// synopsys translate_on
+module topLeftXYZ (
 	result);
 
 	output	[10:0]  result;
+
+	wire [10:0] sub_wire0;
+	wire [10:0] result = sub_wire0[10:0];
+
+	lpm_constant	LPM_CONSTANT_component (
+				.result (sub_wire0));
+	defparam
+		LPM_CONSTANT_component.lpm_cvalue = 210,
+		LPM_CONSTANT_component.lpm_hint = "ENABLE_RUNTIME_MOD=YES, INSTANCE_NAME=topX",
+		LPM_CONSTANT_component.lpm_type = "LPM_CONSTANT",
+		LPM_CONSTANT_component.lpm_width = 11;
+
 
 endmodule
 
