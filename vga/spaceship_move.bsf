@@ -21,9 +21,9 @@ agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 312 160)
-	(text "enemy_generator" (rect 5 0 76 12)(font "Arial" ))
-	(text "inst" (rect 8 128 20 140)(font "Arial" ))
+	(rect 16 16 280 128)
+	(text "spaceship_move" (rect 5 0 73 12)(font "Arial" ))
+	(text "inst" (rect 8 96 20 108)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -41,53 +41,53 @@ agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "generateNew" (rect 0 0 51 12)(font "Arial" ))
-		(text "generateNew" (rect 21 59 72 71)(font "Arial" ))
+		(text "startOfFrame" (rect 0 0 55 12)(font "Arial" ))
+		(text "startOfFrame" (rect 21 59 76 71)(font "Arial" ))
 		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
 		(pt 0 80)
 		(input)
-		(text "randomType[3..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "randomType[3..0]" (rect 21 75 92 87)(font "Arial" ))
+		(text "X_direction[1..0]" (rect 0 0 62 12)(font "Arial" ))
+		(text "X_direction[1..0]" (rect 21 75 83 87)(font "Arial" ))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
 	)
 	(port
-		(pt 0 96)
-		(input)
-		(text "randomLocation[3..0]" (rect 0 0 83 12)(font "Arial" ))
-		(text "randomLocation[3..0]" (rect 21 91 104 103)(font "Arial" ))
-		(line (pt 0 96)(pt 16 96)(line_width 3))
-	)
-	(port
-		(pt 0 112)
-		(input)
-		(text "enemyInstanceAvailable[4..0]" (rect 0 0 119 12)(font "Arial" ))
-		(text "enemyInstanceAvailable[4..0]" (rect 21 107 140 119)(font "Arial" ))
-		(line (pt 0 112)(pt 16 112)(line_width 3))
-	)
-	(port
-		(pt 296 32)
+		(pt 264 32)
 		(output)
-		(text "generateInstance" (rect 0 0 67 12)(font "Arial" ))
-		(text "generateInstance" (rect 208 27 275 39)(font "Arial" ))
-		(line (pt 296 32)(pt 280 32)(line_width 1))
+		(text "spaceship_topLeftX[10..0]" (rect 0 0 102 12)(font "Arial" ))
+		(text "spaceship_topLeftX[10..0]" (rect 141 27 243 39)(font "Arial" ))
+		(line (pt 264 32)(pt 248 32)(line_width 3))
 	)
 	(port
-		(pt 296 48)
+		(pt 264 48)
 		(output)
-		(text "newType[3..0]" (rect 0 0 56 12)(font "Arial" ))
-		(text "newType[3..0]" (rect 219 43 275 55)(font "Arial" ))
-		(line (pt 296 48)(pt 280 48)(line_width 3))
+		(text "spaceship_topLeftY[10..0]" (rect 0 0 103 12)(font "Arial" ))
+		(text "spaceship_topLeftY[10..0]" (rect 140 43 243 55)(font "Arial" ))
+		(line (pt 264 48)(pt 248 48)(line_width 3))
 	)
-	(port
-		(pt 296 64)
-		(output)
-		(text "newLocation[10..0]" (rect 0 0 71 12)(font "Arial" ))
-		(text "newLocation[10..0]" (rect 204 59 275 71)(font "Arial" ))
-		(line (pt 296 64)(pt 280 64)(line_width 3))
-	)
+	(parameter
+		"INITIAL_X"
+		"64"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"INITIAL_Y"
+		"450"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"X_SPEED"
+		"30"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"DONT_MOVE"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
 	(drawing
-		(rectangle (rect 16 16 280 128)(line_width 1))
+		(rectangle (rect 16 16 248 96)(line_width 1))
 	)
+	(annotation_block (parameter)(rect 280 -64 380 16))
 )

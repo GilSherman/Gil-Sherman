@@ -13,7 +13,7 @@ module	smileyface_move	(
 					input	logic	toggleY, //toggle the y direction  
 					input	logic	collision, //moves smiley's location if it got stuck
 					
-					output	logic	[10:0]	topLeftX,// output the top left corner 
+					output	logic	[10:0]	stopLeftX,// output the top left corner 
 					output	logic	[10:0]	topLeftY
 					
 );
@@ -110,7 +110,7 @@ end
 
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 //get a better (64 times) resolution using integer   
-assign 	topLeftX = topLeftX_tmp / MULTIPLIER ;   // note:  it must be 2^n 
+assign 	stopLeftX = topLeftX_tmp / MULTIPLIER ;   // note:  it must be 2^n 
 assign 	topLeftY = topLeftY_tmp / MULTIPLIER ;    
 
 
