@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Failed - Thu Aug 15 13:32:12 2019
-Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Analysis & Synthesis Status : Failed - Thu Aug 15 22:58:21 2019
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : Lab1Demo
-Top-level Entity Name : space_object_move
+Top-level Entity Name : collision_detector
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

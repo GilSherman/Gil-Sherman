@@ -1,17 +1,17 @@
-Analysis & Elaboration report for Lab1Demo
-Thu Aug 15 13:32:12 2019
-Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Analysis & Synthesis report for Lab1Demo
+Thu Aug 15 22:58:21 2019
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
 ---------------------
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Elaboration Summary
-  3. Parallel Compilation
-  4. Analysis & Elaboration Settings
-  5. Analysis & Elaboration Messages
-  6. Analysis & Elaboration Suppressed Messages
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Messages
+  6. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -35,47 +35,31 @@ agreement for further details.
 
 
 
-+---------------------------------------------------------------------------------+
-; Analysis & Elaboration Summary                                                  ;
-+-------------------------------+-------------------------------------------------+
-; Analysis & Elaboration Status ; Failed - Thu Aug 15 13:32:12 2019               ;
-; Quartus Prime Version         ; 17.0.0 Build 595 04/25/2017 SJ Standard Edition ;
-; Revision Name                 ; Lab1Demo                                        ;
-; Top-level Entity Name         ; space_object_move                               ;
-; Family                        ; Cyclone V                                       ;
-; Logic utilization (in ALMs)   ; N/A until Partition Merge                       ;
-; Total registers               ; N/A until Partition Merge                       ;
-; Total pins                    ; N/A until Partition Merge                       ;
-; Total virtual pins            ; N/A until Partition Merge                       ;
-; Total block memory bits       ; N/A until Partition Merge                       ;
-; Total PLLs                    ; N/A until Partition Merge                       ;
-; Total DLLs                    ; N/A until Partition Merge                       ;
-+-------------------------------+-------------------------------------------------+
-
-
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
++---------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                              ;
++-----------------------------+---------------------------------------------+
+; Analysis & Synthesis Status ; Failed - Thu Aug 15 22:58:21 2019           ;
+; Quartus Prime Version       ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name               ; Lab1Demo                                    ;
+; Top-level Entity Name       ; collision_detector                          ;
+; Family                      ; Cyclone V                                   ;
+; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
+; Total registers             ; N/A until Partition Merge                   ;
+; Total pins                  ; N/A until Partition Merge                   ;
+; Total virtual pins          ; N/A until Partition Merge                   ;
+; Total block memory bits     ; N/A until Partition Merge                   ;
+; Total PLLs                  ; N/A until Partition Merge                   ;
+; Total DLLs                  ; N/A until Partition Merge                   ;
++-----------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Elaboration Settings                                                                                           ;
+; Analysis & Synthesis Settings                                                                                             ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
-; Top-level entity name                                                           ; space_object_move  ; Lab1Demo           ;
+; Top-level entity name                                                           ; collision_detector ; Lab1Demo           ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; On                 ; Off                ;
 ; Maximum processors allowed for parallel compilation                             ; All                ;                    ;
@@ -157,113 +141,141 @@ agreement for further details.
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 
 
-+---------------------------------+
-; Analysis & Elaboration Messages ;
-+---------------------------------+
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+    Info: Processing started: Thu Aug 15 22:58:08 2019
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab1Demo -c Lab1Demo
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file tplftx_bb.v
-    Info (12023): Found entity 1: tplftx File: Z:/proyect/vga/tplftx_bb.v Line: 35
+    Info (12023): Found entity 1: tplftx File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx_bb.v Line: 35
 Info (12021): Found 1 design units, including 1 entities, in source file topleftxyz.v
-    Info (12023): Found entity 1: topLeftXYZ File: Z:/proyect/vga/topLeftXYZ.v Line: 40
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/game_controller.sv
-    Info (12023): Found entity 1: game_controller File: Z:/proyect/tachless/game_controller.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/dynamic_object_priority_mux.sv
-    Info (12023): Found entity 1: dynamic_object_priority_mux File: Z:/proyect/tachless/dynamic_object_priority_mux.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/lab1demo.sv
-    Info (12023): Found entity 1: MODUL_NAME File: Z:/proyect/tachless/Lab1Demo.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/all_time.sv
-    Info (12023): Found entity 1: ALL_TIME File: Z:/proyect/tachless/ALL_TIME.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/top_random.bdf
+    Info (12023): Found entity 1: topLeftXYZ File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/topLeftXYZ.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/game_controller.sv
+    Info (12023): Found entity 1: game_controller File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/game_controller.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/dynamic_object_priority_mux.sv
+    Info (12023): Found entity 1: dynamic_object_priority_mux File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/dynamic_object_priority_mux.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/lab1demo.sv
+    Info (12023): Found entity 1: MODUL_NAME File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/Lab1Demo.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/all_time.sv
+    Info (12023): Found entity 1: ALL_TIME File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/ALL_TIME.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/top_random.bdf
     Info (12023): Found entity 1: TOP_RANDOM
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/top_kbdintf.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/top_kbdintf.bdf
     Info (12023): Found entity 1: TOP_KBDINTF
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/top_kbd_demo.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/top_kbd_demo.bdf
     Info (12023): Found entity 1: TOP_KBD_DEMO
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/random.sv
-    Info (12023): Found entity 1: random File: Z:/proyect/Debug/rtl/random.sv Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/lpf.sv
-    Info (12023): Found entity 1: lpf File: Z:/proyect/Debug/rtl/lpf.sv Line: 5
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/keytoggle_decoder.sv
-    Info (12023): Found entity 1: keyToggle_decoder File: Z:/proyect/Debug/rtl/keyToggle_decoder.sv Line: 6
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/kbdintf.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/random.sv
+    Info (12023): Found entity 1: random File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/random.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/lpf.sv
+    Info (12023): Found entity 1: lpf File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/lpf.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/keytoggle_decoder.sv
+    Info (12023): Found entity 1: keyToggle_decoder File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/keyToggle_decoder.sv Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/kbdintf.bdf
     Info (12023): Found entity 1: KBDINTF
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/hexss.sv
-    Info (12023): Found entity 1: HexSS File: Z:/proyect/Debug/rtl/HexSS.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/byterec.sv
-    Info (12023): Found entity 1: byterec File: Z:/proyect/Debug/rtl/byterec.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/bitrec.sv
-    Info (12023): Found entity 1: bitrec File: Z:/proyect/Debug/rtl/bitrec.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/keyval2.v
-    Info (12023): Found entity 1: keyval2 File: Z:/proyect/Debug/keyval2.v Line: 40
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/keyval1.v
-    Info (12023): Found entity 1: keyval1 File: Z:/proyect/Debug/keyval1.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/hexss.sv
+    Info (12023): Found entity 1: HexSS File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/HexSS.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/byterec.sv
+    Info (12023): Found entity 1: byterec File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/byterec.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/bitrec.sv
+    Info (12023): Found entity 1: bitrec File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/bitrec.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/keyval2.v
+    Info (12023): Found entity 1: keyval2 File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval2.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/keyval1.v
+    Info (12023): Found entity 1: keyval1 File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval1.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/top_vga_demo_with_mss.bdf
     Info (12023): Found entity 1: TOP_VGA_DEMO_WITH_MSS
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/smileyface_move.sv
-    Info (12023): Found entity 1: smileyface_move File: Z:/proyect/vga/RTL/VGA/smileyface_move.sv Line: 7
+    Info (12023): Found entity 1: smileyface_move File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/smileyface_move.sv Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/square_object.sv
-    Info (12023): Found entity 1: square_object File: Z:/proyect/vga/RTL/VGA/square_object.sv Line: 8
+    Info (12023): Found entity 1: square_object File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/square_object.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/smileybitmap.sv
-    Info (12023): Found entity 1: smileyBitMap File: Z:/proyect/vga/RTL/VGA/smileyBitMap.sv Line: 9
+    Info (12023): Found entity 1: smileyBitMap File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/smileyBitMap.sv Line: 9
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/objects_mux.sv
-    Info (12023): Found entity 1: objects_mux File: Z:/proyect/vga/RTL/VGA/objects_mux.sv Line: 7
+    Info (12023): Found entity 1: objects_mux File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/objects_mux.sv Line: 7
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/vga_controller.sv
-    Info (12023): Found entity 1: VGA_Controller File: Z:/proyect/vga/RTL/VGA/VGA_Controller.sv Line: 6
+    Info (12023): Found entity 1: VGA_Controller File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/VGA_Controller.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/back_ground_draw.sv
-    Info (12023): Found entity 1: back_ground_draw File: Z:/proyect/vga/RTL/VGA/back_ground_draw.sv Line: 8
+    Info (12023): Found entity 1: back_ground_draw File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/back_ground_draw.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/numbersbitmap.sv
-    Info (12023): Found entity 1: NumbersBitMap File: Z:/proyect/vga/RTL/VGA/NumbersBitMap.sv Line: 8
+    Info (12023): Found entity 1: NumbersBitMap File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/NumbersBitMap.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/mss/tonedecoder.sv
-    Info (12023): Found entity 1: ToneDecoder File: Z:/proyect/vga/RTL/MSS/ToneDecoder.sv Line: 6
+    Info (12023): Found entity 1: ToneDecoder File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/ToneDecoder.sv Line: 6
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/mss/top_mss_demo.bdf
     Info (12023): Found entity 1: TOP_MSS_DEMO
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/mss/sintable.sv
-    Info (12023): Found entity 1: sintable File: Z:/proyect/vga/RTL/MSS/SinTable.sv Line: 8
+    Info (12023): Found entity 1: sintable File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/SinTable.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/mss/prescaler.sv
-    Info (12023): Found entity 1: prescaler File: Z:/proyect/vga/RTL/MSS/prescaler.sv Line: 12
+    Info (12023): Found entity 1: prescaler File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/prescaler.sv Line: 12
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/mss/data_conversion.sv
-    Info (12023): Found entity 1: data_conversion File: Z:/proyect/vga/RTL/MSS/data_conversion.sv Line: 4
+    Info (12023): Found entity 1: data_conversion File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/data_conversion.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/mss/addr_counter.sv
-    Info (12023): Found entity 1: addr_counter File: Z:/proyect/vga/RTL/MSS/addr_counter.sv Line: 4
+    Info (12023): Found entity 1: addr_counter File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/addr_counter.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/audio_codec_controller/audio_codec_controller.qxp
-    Info (12023): Found entity 1: audio_codec_controller File: Z:/proyect/vga/RTL/audio_codec_controller/audio_codec_controller.qxp Line: -1
+    Info (12023): Found entity 1: audio_codec_controller File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/audio_codec_controller/audio_codec_controller.qxp Line: -1
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/seg7/seg7.sv
-    Info (12023): Found entity 1: SEG7 File: Z:/proyect/vga/RTL/Seg7/SEG7.SV Line: 4
+    Info (12023): Found entity 1: SEG7 File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/Seg7/SEG7.SV Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/keyboard/keypad_decoder.sv
-    Info (12023): Found entity 1: keyPad_decoder File: Z:/proyect/vga/RTL/KEYBOARD/keyPad_decoder.sv Line: 5
+    Info (12023): Found entity 1: keyPad_decoder File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/KEYBOARD/keyPad_decoder.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/top_vga_demo_with_mss_all.bdf
     Info (12023): Found entity 1: TOP_VGA_DEMO_WITH_MSS_ALL
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/back_ground_drawsquare.sv
-    Info (12023): Found entity 1: back_ground_drawSquare File: Z:/proyect/vga/RTL/VGA/back_ground_drawSquare.sv Line: 8
+    Info (12023): Found entity 1: back_ground_drawSquare File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/back_ground_drawSquare.sv Line: 8
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/smileybitmapx2.sv
-    Info (12023): Found entity 1: smileyBitMapX2 File: Z:/proyect/vga/RTL/VGA/smileyBitMapX2.sv Line: 9
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/debug/rtl/top_kbd_demoall.bdf
+    Info (12023): Found entity 1: smileyBitMapX2 File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/smileyBitMapX2.sv Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/debug/rtl/top_kbd_demoall.bdf
     Info (12023): Found entity 1: TOP_KBD_DEMOALL
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/top_lvl.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/top_lvl.bdf
     Info (12023): Found entity 1: TOP_LVL
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/background_priority_mux.sv
-    Info (12023): Found entity 1: background_priority_mux File: Z:/proyect/tachless/background_priority_mux.sv Line: 4
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/enemy_generator.sv
-    Info (12023): Found entity 1: enemy_generator File: Z:/proyect/tachless/enemy_generator.sv Line: 6
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/space_object_move.sv
-    Info (12023): Found entity 1: space_object_move File: Z:/proyect/tachless/space_object_move.sv Line: 6
-Error (10228): Verilog HDL error at tplftx.v(40): module "tplftx" cannot be declared more than once File: Z:/proyect/vga/tplftx.v Line: 40
-Info (10499): HDL info at tplftx_bb.v(35): see declaration for object "tplftx" File: Z:/proyect/vga/tplftx_bb.v Line: 35
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/background_priority_mux.sv
+    Info (12023): Found entity 1: background_priority_mux File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/background_priority_mux.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/enemy_generator.sv
+    Info (12023): Found entity 1: enemy_generator File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/enemy_generator.sv Line: 6
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/space_object_move.sv
+    Info (12023): Found entity 1: space_object_move File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/space_object_move.sv Line: 6
+Error (10228): Verilog HDL error at tplftx.v(40): module "tplftx" cannot be declared more than once File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx.v Line: 40
+Info (10499): HDL info at tplftx_bb.v(35): see declaration for object "tplftx" File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx_bb.v Line: 35
 Info (12021): Found 0 design units, including 0 entities, in source file tplftx.v
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/spaceship_move.sv
-    Info (12023): Found entity 1: spaceship_move File: Z:/proyect/tachless/spaceship_move.sv Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/spaceship_move.sv
+    Info (12023): Found entity 1: spaceship_move File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/spaceship_move.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file rtl/vga/player_object.sv
-    Info (12023): Found entity 1: player_object File: Z:/proyect/vga/RTL/VGA/player_object.sv Line: 8
-Info (12021): Found 1 design units, including 1 entities, in source file /proyect/tachless/missile_move.sv
-    Info (12023): Found entity 1: missile_move File: Z:/proyect/tachless/missile_move.sv Line: 5
+    Info (12023): Found entity 1: player_object File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/player_object.sv Line: 8
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/missile_move.sv
+    Info (12023): Found entity 1: missile_move File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/missile_move.sv Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file basicbackground.v
-    Info (12023): Found entity 1: basicBackground File: Z:/proyect/vga/basicBackground.v Line: 40
-Info (144001): Generated suppressed messages file Z:/proyect/vga/output_files/Lab1Demo.map.smsg
+    Info (12023): Found entity 1: basicBackground File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/basicBackground.v Line: 40
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/collision_detector.sv
+    Info (12023): Found entity 1: collision_detector File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/collision_detector.sv Line: 4
+Info (144001): Generated suppressed messages file C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.smsg
+Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 0 warnings
+    Error: Peak virtual memory: 4773 megabytes
+    Error: Processing ended: Thu Aug 15 22:58:21 2019
+    Error: Elapsed time: 00:00:13
+    Error: Total CPU time (on all processors): 00:00:29
 
 
-+--------------------------------------------+
-; Analysis & Elaboration Suppressed Messages ;
-+--------------------------------------------+
-The suppressed messages can be found in Z:/proyect/vga/output_files/Lab1Demo.map.smsg.
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.smsg.
 
 

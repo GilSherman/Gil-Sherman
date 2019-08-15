@@ -22,8 +22,6 @@ parameter int INITIAL_X = 0;
 parameter int INITIAL_Y = 450;
 parameter int Y_SPEED = -10;
 
-parameter int SPACESHIP_SIZE = 20;
-
 const int	MULTIPLIER	=	64;
 // multiplier is used to work with integers in high resolution 
 // we devide at the end by multiplier which must be 2^n 
@@ -33,14 +31,11 @@ const int	y_FRAME_SIZE	=	479 * MULTIPLIER;
 int topLeftX_tmp, topLeftY_tmp; // local parameters 
 logic firing; //object state, 1-fire, 0-dont fire
 
-int mid_spaceship = playerPositionX + SPACESHIP_SIZE/2 ;
-
 // position calculate 
 
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 always_ff@(posedge clk or negedge resetN)
 begin
-	
 	if(!resetN || hit == 1'b1 || (topLeftY_tmp <= 5 ))
 	begin
 		topLeftX_tmp	<= INITIAL_X * MULTIPLIER;
@@ -51,7 +46,7 @@ begin
 				
 		if (fire == 1'b1) begin
 			firing <= 1'b1;
-			topLeftX_tmp <= mid_spaceship * MULTIPLIER;
+			topLeftX_tmp <= playerPositionX * MULTIPLIER;
 		end
 			
 		if (startOfFrame == 1'b1 && firing == 1'b1) begin //startOfFrame perform only 30 times per second, fire determines the movement
