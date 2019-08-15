@@ -1,5 +1,5 @@
 Flow report for Lab1Demo
-Thu Aug 15 22:58:21 2019
+Thu Aug 15 23:15:06 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,10 +41,10 @@ agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Flow Failed - Thu Aug 15 22:58:21 2019      ;
+; Flow Status                 ; Flow Failed - Thu Aug 15 23:15:06 2019      ;
 ; Quartus Prime Version       ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name               ; Lab1Demo                                    ;
-; Top-level Entity Name       ; collision_detector                          ;
+; Top-level Entity Name       ; background_priority_mux                     ;
 ; Family                      ; Cyclone V                                   ;
 ; Device                      ; 5CSXFC6D6F31C6                              ;
 ; Timing Models               ; Final                                       ;
@@ -63,38 +63,38 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/15/2019 22:58:09 ;
+; Start date & time ; 08/15/2019 23:14:54 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab1Demo            ;
 +-------------------+---------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                               ;
-+-------------------------------------+----------------------------------------+---------------+--------------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name        ; Section Id ;
-+-------------------------------------+----------------------------------------+---------------+--------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 176770275589510.156589908908920        ; --            ; --                 ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                 ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                 ; --         ;
-; MISC_FILE                           ; ../Debug/keyval2.bsf                   ; --            ; --                 ; --         ;
-; MISC_FILE                           ; ../Debug/keyval2_bb.v                  ; --            ; --                 ; --         ;
-; MISC_FILE                           ; ../Debug/keyval1.bsf                   ; --            ; --                 ; --         ;
-; MISC_FILE                           ; ../Debug/keyval1_bb.v                  ; --            ; --                 ; --         ;
-; MISC_FILE                           ; tplftx.bsf                             ; --            ; --                 ; --         ;
-; MISC_FILE                           ; tplftx_bb.v                            ; --            ; --                 ; --         ;
-; MISC_FILE                           ; basicBackground.bsf                    ; --            ; --                 ; --         ;
-; MISC_FILE                           ; basicBackground_bb.v                   ; --            ; --                 ; --         ;
-; NUM_PARALLEL_PROCESSORS             ; All                                    ; --            ; --                 ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; collision_detector ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; collision_detector ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; collision_detector ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                 ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                 ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                 ; --         ;
-; SMART_RECOMPILE                     ; On                                     ; Off           ; --                 ; --         ;
-; TOP_LEVEL_ENTITY                    ; collision_detector                     ; Lab1Demo      ; --                 ; --         ;
-+-------------------------------------+----------------------------------------+---------------+--------------------+------------+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                    ;
++-------------------------------------+----------------------------------------+---------------+-------------------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name             ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------------------+------------+
+; COMPILER_SIGNATURE_ID               ; 176770275589510.156590009409708        ; --            ; --                      ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                      ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                      ; --         ;
+; MISC_FILE                           ; ../Debug/keyval2.bsf                   ; --            ; --                      ; --         ;
+; MISC_FILE                           ; ../Debug/keyval2_bb.v                  ; --            ; --                      ; --         ;
+; MISC_FILE                           ; ../Debug/keyval1.bsf                   ; --            ; --                      ; --         ;
+; MISC_FILE                           ; ../Debug/keyval1_bb.v                  ; --            ; --                      ; --         ;
+; MISC_FILE                           ; tplftx.bsf                             ; --            ; --                      ; --         ;
+; MISC_FILE                           ; tplftx_bb.v                            ; --            ; --                      ; --         ;
+; MISC_FILE                           ; basicBackground.bsf                    ; --            ; --                      ; --         ;
+; MISC_FILE                           ; basicBackground_bb.v                   ; --            ; --                      ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; All                                    ; --            ; --                      ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; background_priority_mux ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; background_priority_mux ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; background_priority_mux ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                      ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                      ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                      ; --         ;
+; SMART_RECOMPILE                     ; On                                     ; Off           ; --                      ; --         ;
+; TOP_LEVEL_ENTITY                    ; background_priority_mux                ; Lab1Demo      ; --                      ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------------------+------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+

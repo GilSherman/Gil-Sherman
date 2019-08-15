@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Failed - Thu Aug 15 22:58:21 2019
+Analysis & Synthesis Status : Failed - Thu Aug 15 23:15:06 2019
 Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 Revision Name : Lab1Demo
-Top-level Entity Name : collision_detector
+Top-level Entity Name : background_priority_mux
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge
