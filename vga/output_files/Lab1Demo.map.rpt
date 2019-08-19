@@ -1,5 +1,5 @@
-Analysis & Synthesis report for Lab1Demo
-Thu Aug 15 23:15:06 2019
+Analysis & Elaboration report for Lab1Demo
+Tue Aug 20 01:17:28 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -7,11 +7,11 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 ; Table of Contents ;
 ---------------------
   1. Legal Notice
-  2. Analysis & Synthesis Summary
-  3. Analysis & Synthesis Settings
-  4. Parallel Compilation
-  5. Analysis & Synthesis Messages
-  6. Analysis & Synthesis Suppressed Messages
+  2. Analysis & Elaboration Summary
+  3. Parallel Compilation
+  4. Analysis & Elaboration Settings
+  5. Analysis & Elaboration Messages
+  6. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -35,26 +35,42 @@ agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                              ;
-+-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Thu Aug 15 23:15:06 2019           ;
-; Quartus Prime Version       ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
-; Revision Name               ; Lab1Demo                                    ;
-; Top-level Entity Name       ; background_priority_mux                     ;
-; Family                      ; Cyclone V                                   ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-----------------------------------------------------------------------------+
+; Analysis & Elaboration Summary                                              ;
++-------------------------------+---------------------------------------------+
+; Analysis & Elaboration Status ; Failed - Tue Aug 20 01:17:28 2019           ;
+; Quartus Prime Version         ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name                 ; Lab1Demo                                    ;
+; Top-level Entity Name         ; background_priority_mux                     ;
+; Family                        ; Cyclone V                                   ;
+; Logic utilization (in ALMs)   ; N/A until Partition Merge                   ;
+; Total registers               ; N/A until Partition Merge                   ;
+; Total pins                    ; N/A until Partition Merge                   ;
+; Total virtual pins            ; N/A until Partition Merge                   ;
+; Total block memory bits       ; N/A until Partition Merge                   ;
+; Total PLLs                    ; N/A until Partition Merge                   ;
+; Total DLLs                    ; N/A until Partition Merge                   ;
++-------------------------------+---------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Settings                                                                                                  ;
+; Analysis & Elaboration Settings                                                                                                ;
 +---------------------------------------------------------------------------------+-------------------------+--------------------+
 ; Option                                                                          ; Setting                 ; Default Value      ;
 +---------------------------------------------------------------------------------+-------------------------+--------------------+
@@ -141,30 +157,9 @@ agreement for further details.
 +---------------------------------------------------------------------------------+-------------------------+--------------------+
 
 
-+------------------------------------------+
-; Parallel Compilation                     ;
-+----------------------------+-------------+
-; Processors                 ; Number      ;
-+----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
-;                            ;             ;
-; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
-;                            ;             ;
-; Usage by Processor         ; % Time Used ;
-;     Processor 1            ; 100.0%      ;
-+----------------------------+-------------+
-
-
-+-------------------------------+
-; Analysis & Synthesis Messages ;
-+-------------------------------+
-Info: *******************************************************************
-Info: Running Quartus Prime Analysis & Synthesis
-    Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Thu Aug 15 23:14:53 2019
-Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab1Demo -c Lab1Demo
++---------------------------------+
+; Analysis & Elaboration Messages ;
++---------------------------------+
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file tplftx_bb.v
     Info (12023): Found entity 1: tplftx File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx_bb.v Line: 35
@@ -265,17 +260,14 @@ Info (12021): Found 1 design units, including 1 entities, in source file basicba
     Info (12023): Found entity 1: basicBackground File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/basicBackground.v Line: 40
 Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/collision_detector.sv
     Info (12023): Found entity 1: collision_detector File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/collision_detector.sv Line: 4
+Info (12021): Found 1 design units, including 1 entities, in source file /users/talsh/desktop/mabadaa/proyect/gil-sherman/tachless/game_score.sv
+    Info (12023): Found entity 1: game_score File: C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/game_score.sv Line: 4
 Info (144001): Generated suppressed messages file C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.smsg
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 1 error, 0 warnings
-    Error: Peak virtual memory: 4773 megabytes
-    Error: Processing ended: Thu Aug 15 23:15:06 2019
-    Error: Elapsed time: 00:00:13
-    Error: Total CPU time (on all processors): 00:00:29
 
 
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
++--------------------------------------------+
+; Analysis & Elaboration Suppressed Messages ;
++--------------------------------------------+
 The suppressed messages can be found in C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.smsg.
 
 
