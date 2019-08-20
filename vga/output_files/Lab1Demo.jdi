@@ -1,0 +1,378 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="5971c832d3f2437cdb97"/>
+  </project>
+  <file_info>
+    <file device="5CSXFC6D6F31C6" path="Lab1Demo.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <hub_info hub_ir_width="8" ir_width="8" node_addr_width="3" node_count="6"/>
+  <node_info>
+    <node hpath="Keyboard:inst5|right:inst4|lpm_constant:LPM_CONSTANT_component|lpm_constant_ni8:ag|sld_mod_ram_rom:mgl_prim1" instance_id="0" mfg_id="110" node_id="3" sld_node_info="0x10186E00" version="2">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="270036480"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="9"/>
+        <parameter name="numwords" type="unknown" value="1"/>
+        <parameter name="widthad" type="unknown" value="1"/>
+        <parameter name="shift_count_bits" type="unknown" value="4"/>
+        <parameter name="cvalue" type="unknown" value="101110100"/>
+        <parameter name="is_data_in_ram" type="unknown" value="0"/>
+        <parameter name="is_readable" type="unknown" value="0"/>
+        <parameter name="BACKPRESSURE_ENABLED" type="dec" value="0"/>
+        <parameter name="FIFO_SIZE" type="dec" value="16"/>
+        <parameter name="FIFO_SIZE_WIDTH" type="dec" value="5"/>
+        <parameter name="node_name" type="unknown" value="1919510388"/>
+      </parameters>
+      <inputs>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_tdi" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_tdi"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_usr1" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_usr1"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_clr" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_clr"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ena" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ena"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_" source="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_"/>
+      </inputs>
+      <outputs>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_0_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_1_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_2_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_3_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_4_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_5_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_6_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_7_"/>
+        <port name="jtag.bp.inst5_inst4_LPM_CONSTANT_component_ag_mgl_prim1_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="Keyboard:inst5|left:inst13|lpm_constant:LPM_CONSTANT_component|lpm_constant_pj8:ag|sld_mod_ram_rom:mgl_prim1" instance_id="1" mfg_id="110" node_id="3" sld_node_info="0x10186E01" version="2">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="270036480"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="9"/>
+        <parameter name="numwords" type="unknown" value="1"/>
+        <parameter name="widthad" type="unknown" value="1"/>
+        <parameter name="shift_count_bits" type="unknown" value="4"/>
+        <parameter name="cvalue" type="unknown" value="101101011"/>
+        <parameter name="is_data_in_ram" type="unknown" value="0"/>
+        <parameter name="is_readable" type="unknown" value="0"/>
+        <parameter name="BACKPRESSURE_ENABLED" type="dec" value="0"/>
+        <parameter name="FIFO_SIZE" type="dec" value="16"/>
+        <parameter name="FIFO_SIZE_WIDTH" type="dec" value="5"/>
+        <parameter name="node_name" type="unknown" value="1818584692"/>
+      </parameters>
+      <inputs>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_tdi" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_tdi"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_usr1" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_usr1"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_clr" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_clr"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ena" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ena"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_" source="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_"/>
+      </inputs>
+      <outputs>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_0_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_1_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_2_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_3_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_4_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_5_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_6_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_7_"/>
+        <port name="jtag.bp.inst5_inst13_LPM_CONSTANT_component_ag_mgl_prim1_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="Keyboard:inst5|fire:inst15|lpm_constant:LPM_CONSTANT_component|lpm_constant_6i8:ag|sld_mod_ram_rom:mgl_prim1" instance_id="2" mfg_id="110" node_id="3" sld_node_info="0x10186E02" version="2">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="270036480"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="9"/>
+        <parameter name="numwords" type="unknown" value="1"/>
+        <parameter name="widthad" type="unknown" value="1"/>
+        <parameter name="shift_count_bits" type="unknown" value="4"/>
+        <parameter name="cvalue" type="unknown" value="000101001"/>
+        <parameter name="is_data_in_ram" type="unknown" value="0"/>
+        <parameter name="is_readable" type="unknown" value="0"/>
+        <parameter name="BACKPRESSURE_ENABLED" type="dec" value="0"/>
+        <parameter name="FIFO_SIZE" type="dec" value="16"/>
+        <parameter name="FIFO_SIZE_WIDTH" type="dec" value="5"/>
+        <parameter name="node_name" type="unknown" value="1718186597"/>
+      </parameters>
+      <inputs>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_tdi" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_tdi"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_usr1" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_usr1"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_clr" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_clr"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ena" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ena"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_" source="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_"/>
+      </inputs>
+      <outputs>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_0_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_1_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_2_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_3_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_4_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_5_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_6_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_7_"/>
+        <port name="jtag.bp.inst5_inst15_LPM_CONSTANT_component_ag_mgl_prim1_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="basicBackground:inst14|lpm_constant:LPM_CONSTANT_component|lpm_constant_bj8:ag|sld_mod_ram_rom:mgl_prim1" instance_id="3" mfg_id="110" node_id="3" sld_node_info="0x10186E03" version="2">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="270036480"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="8"/>
+        <parameter name="numwords" type="unknown" value="1"/>
+        <parameter name="widthad" type="unknown" value="1"/>
+        <parameter name="shift_count_bits" type="unknown" value="4"/>
+        <parameter name="cvalue" type="unknown" value="11111111"/>
+        <parameter name="is_data_in_ram" type="unknown" value="0"/>
+        <parameter name="is_readable" type="unknown" value="0"/>
+        <parameter name="BACKPRESSURE_ENABLED" type="dec" value="0"/>
+        <parameter name="FIFO_SIZE" type="dec" value="16"/>
+        <parameter name="FIFO_SIZE_WIDTH" type="dec" value="5"/>
+        <parameter name="node_name" type="unknown" value="1650945636"/>
+      </parameters>
+      <inputs>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_tdi" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_tdi"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_usr1" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_usr1"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_clr" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_clr"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ena" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ena"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_" source="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_"/>
+      </inputs>
+      <outputs>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_0_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_1_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_2_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_3_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_4_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_5_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_6_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_7_"/>
+        <port name="jtag.bp.inst14_LPM_CONSTANT_component_ag_mgl_prim1_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="TOP_KBD_DEMOALL:inst10|keyval2:inst9|lpm_constant:LPM_CONSTANT_component|lpm_constant_7i8:ag|sld_mod_ram_rom:mgl_prim1" instance_id="4" mfg_id="110" node_id="3" sld_node_info="0x10186E04" version="2">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="270036480"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="9"/>
+        <parameter name="numwords" type="unknown" value="1"/>
+        <parameter name="widthad" type="unknown" value="1"/>
+        <parameter name="shift_count_bits" type="unknown" value="4"/>
+        <parameter name="cvalue" type="unknown" value="001011010"/>
+        <parameter name="is_data_in_ram" type="unknown" value="0"/>
+        <parameter name="is_readable" type="unknown" value="0"/>
+        <parameter name="BACKPRESSURE_ENABLED" type="dec" value="0"/>
+        <parameter name="FIFO_SIZE" type="dec" value="16"/>
+        <parameter name="FIFO_SIZE_WIDTH" type="dec" value="5"/>
+        <parameter name="node_name" type="unknown" value="1801812274"/>
+      </parameters>
+      <inputs>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_tdi" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_tdi"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_usr1" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_usr1"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_clr" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_clr"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ena" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ena"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_" source="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_"/>
+      </inputs>
+      <outputs>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_0_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_1_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_2_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_3_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_4_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_5_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_6_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_7_"/>
+        <port name="jtag.bp.inst10_inst9_LPM_CONSTANT_component_ag_mgl_prim1_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="TOP_KBD_DEMOALL:inst10|keyval1:inst8|lpm_constant:LPM_CONSTANT_component|lpm_constant_qg8:ag|sld_mod_ram_rom:mgl_prim1" instance_id="5" mfg_id="110" node_id="3" sld_node_info="0x10186E05" version="2">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="270036480"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="9"/>
+        <parameter name="numwords" type="unknown" value="1"/>
+        <parameter name="widthad" type="unknown" value="1"/>
+        <parameter name="shift_count_bits" type="unknown" value="4"/>
+        <parameter name="cvalue" type="unknown" value="000101001"/>
+        <parameter name="is_data_in_ram" type="unknown" value="0"/>
+        <parameter name="is_readable" type="unknown" value="0"/>
+        <parameter name="BACKPRESSURE_ENABLED" type="dec" value="0"/>
+        <parameter name="FIFO_SIZE" type="dec" value="16"/>
+        <parameter name="FIFO_SIZE_WIDTH" type="dec" value="5"/>
+        <parameter name="node_name" type="unknown" value="1801812273"/>
+      </parameters>
+      <inputs>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_raw_tck"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_tdi" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_tdi"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_usr1" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_usr1"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_cdr"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_sdr"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_e1dr"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_udr"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_jtag_state_uir"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_clr" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_clr"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ena" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ena"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_0_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_1_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_2_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_3_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_4_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_5_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_6_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_" source="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_in_7_"/>
+      </inputs>
+      <outputs>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_0_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_1_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_2_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_3_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_4_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_5_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_6_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_ir_out_7_"/>
+        <port name="jtag.bp.inst10_inst8_LPM_CONSTANT_component_ag_mgl_prim1_tdo"/>
+      </outputs>
+    </node>
+  </node_info>
+  <sld_infos>
+    <sld_info hpath="sld_hub:auto_hub|alt_sld_fab:\instrumentation_fabric_with_node_gen:instrumentation_fabric" library="alt_sld_fab" name="instrumentation_fabric">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME alt_sld_fab HAS_SOPCINFO 1"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

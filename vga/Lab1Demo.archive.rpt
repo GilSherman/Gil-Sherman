@@ -1,5 +1,5 @@
 Archive Project report for Lab1Demo
-Tue Aug 20 01:17:30 2019
+Wed Aug 21 00:52:38 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -36,9 +36,9 @@ agreement for further details.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Tue Aug 20 01:17:30 2019 ;
+; Archive Project Status ; Successful - Wed Aug 21 00:52:38 2019 ;
 ; Revision Name          ; Lab1Demo                              ;
-; Top-level Entity Name  ; background_priority_mux               ;
+; Top-level Entity Name  ; TOP_LVL                               ;
 ; Family                 ; Cyclone V                             ;
 +------------------------+---------------------------------------+
 
@@ -49,11 +49,6 @@ agreement for further details.
 Info: File Set 'Source control' contains:
     Info: Project source and settings files
     Info: Automatically detected source files
-Critical Warning: Analysis & Elaboration was not run successfully.
-    Critical Warning: The 'Automatically detected source files' file subset will attempt to guess which files are needed. The archive file will likely be larger than required and may still be incomplete.
-Info: Parsing: ../tachless/dynamic_object_priority_mux.sv
-Info: Parsing: ../tachless/background_priority_mux.sv
-Info: Parsing: ../tachless/game_score.sv
 Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/
 Info: ----------------------------------------------------------
@@ -62,12 +57,12 @@ Info: Generated archive 'C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/
 Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'Lab1Demo.archive.rpt'
-Error (23031): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl unsuccessful
-Error: Quartus Prime Shell was unsuccessful. 4 errors, 2 warnings
-    Error: Peak virtual memory: 4752 megabytes
-    Error: Processing ended: Tue Aug 20 01:17:30 2019
-    Error: Elapsed time: 00:00:24
-    Error: Total CPU time (on all processors): 00:00:43
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4753 megabytes
+    Info: Processing ended: Wed Aug 21 00:52:38 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 
 +--------------------------------------------------------------------------------------------+
@@ -101,27 +96,21 @@ Error: Quartus Prime Shell was unsuccessful. 4 errors, 2 warnings
 ; ../tachless/enemy_generator.sv                                                             ;
 ; ../tachless/game_controller.sv                                                             ;
 ; ../tachless/game_score.sv                                                                  ;
+; ../tachless/Keyboard.bdf                                                                   ;
 ; ../tachless/Lab1Demo.sv                                                                    ;
 ; ../tachless/missile_move.sv                                                                ;
 ; ../tachless/space_object_move.sv                                                           ;
 ; ../tachless/spaceship_move.sv                                                              ;
 ; ../tachless/TOP_LVL.bdf                                                                    ;
-; __Lab1Demo.auto.qarlog                                                                     ;
-; ALL_TIME.bsf                                                                               ;
 ; assignment_defaults.qdf                                                                    ;
-; background_priority_mux.bsf                                                                ;
 ; basicBackground.bsf                                                                        ;
 ; basicBackground.qip                                                                        ;
 ; basicBackground.v                                                                          ;
 ; basicBackground_bb.v                                                                       ;
-; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval1.bsf                       ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval1.qip                       ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval1.v                         ;
-; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval1_bb.v                      ;
-; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval2.bsf                       ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval2.qip                       ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval2.v                         ;
-; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/keyval2_bb.v                      ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/pin.tcl                           ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/pinRand.tcl                       ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/bitrec.sv                     ;
@@ -142,32 +131,30 @@ Error: Quartus Prime Shell was unsuccessful. 4 errors, 2 warnings
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/enemy_generator.sv             ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/game_controller.sv             ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/game_score.sv                  ;
+; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/Keyboard.bdf                   ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/Lab1Demo.sv                    ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/missile_move.sv                ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/space_object_move.sv           ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/spaceship_move.sv              ;
 ; C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/TOP_LVL.bdf                    ;
-; collision_detector.bsf                                                                     ;
 ; constraints/DE10_Standard_Audio.sdc                                                        ;
 ; constraints/pin.tcl                                                                        ;
 ; DE10_Standard_Audio.sdc                                                                    ;
-; dynamic_object_priority_mux.bsf                                                            ;
-; enemy_generator.bsf                                                                        ;
-; Lab1Demo.archive.rpt                                                                       ;
-; Lab1Demo.qarlog                                                                            ;
+; fire.bsf                                                                                   ;
+; fire.qip                                                                                   ;
+; fire.v                                                                                     ;
+; fire_bb.v                                                                                  ;
 ; Lab1Demo.qpf                                                                               ;
 ; Lab1Demo.qsf                                                                               ;
-; Lab1Demo.restore.rpt                                                                       ;
-; missile_move.bsf                                                                           ;
+; left.bsf                                                                                   ;
+; left.qip                                                                                   ;
+; left.v                                                                                     ;
+; left_bb.v                                                                                  ;
 ; output_files/Chain1.cdf                                                                    ;
-; output_files/Lab1Demo.done                                                                 ;
-; output_files/Lab1Demo.flow.rpt                                                             ;
-; output_files/Lab1Demo.map.rpt                                                              ;
-; output_files/Lab1Demo.map.smsg                                                             ;
-; output_files/Lab1Demo.map.summary                                                          ;
-; player_object.bsf                                                                          ;
-; random.bsf                                                                                 ;
-; RTL/audio_codec_controller/audio_codec_controller.qarlog                                   ;
+; right.bsf                                                                                  ;
+; right.qip                                                                                  ;
+; right.v                                                                                    ;
+; right_bb.v                                                                                 ;
 ; RTL/audio_codec_controller/audio_codec_controller.qxp                                      ;
 ; RTL/KEYBOARD/keyPad_decoder.sv                                                             ;
 ; RTL/MSS/addr_counter.sv                                                                    ;
@@ -189,15 +176,16 @@ Error: Quartus Prime Shell was unsuccessful. 4 errors, 2 warnings
 ; RTL/VGA/TOP_VGA_DEMO_WITH_MSS.bdf                                                          ;
 ; RTL/VGA/TOP_VGA_DEMO_WITH_MSS_ALL.bdf                                                      ;
 ; RTL/VGA/VGA_Controller.sv                                                                  ;
-; space_object_move.bsf                                                                      ;
-; spaceship_move.bsf                                                                         ;
-; square_object.bsf                                                                          ;
 ; stp2.stp                                                                                   ;
 ; topLeftXYZ.v                                                                               ;
 ; tplftx.bsf                                                                                 ;
 ; tplftx.qip                                                                                 ;
 ; tplftx.v                                                                                   ;
 ; tplftx_bb.v                                                                                ;
+; up.bsf                                                                                     ;
+; up.qip                                                                                     ;
+; up.v                                                                                       ;
+; up_bb.v                                                                                    ;
 +--------------------------------------------------------------------------------------------+
 
 

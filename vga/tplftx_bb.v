@@ -32,7 +32,7 @@
 //authorized distributors.  Please refer to the applicable 
 //agreement for further details.
 
-module tplftx (
+module tplftx_bb (
 	result);
 
 	output	[10:0]  result;

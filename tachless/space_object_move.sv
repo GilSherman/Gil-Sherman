@@ -10,7 +10,7 @@ module	space_object_move	(
 					input	logic	startOfFrame,        // short pulse every start of frame 30Hz
 					
 					input logic spawn,					//at posedge move to initial X position
-					input logic [2:0] initPositionX, //initial x position 
+					input logic [10:0] initPositionX, //initial x position 
 						
 					input	logic	advance, 				//at posedge increace Y by Y_SPEED 
 					
@@ -18,6 +18,17 @@ module	space_object_move	(
 					output	logic	[10:0]	object_topLeftY
 					
 );
+
+
+
+// there is not one bit that reffers to spawn or initPositionX
+// this sould be addressed when adding all the other enemies .... 
+// should probably add another output and another int , for "working now"
+// to know if you can spawn a new one
+
+
+
+
 
 
 parameter int INITIAL_X = 50;

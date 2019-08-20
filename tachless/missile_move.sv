@@ -2,19 +2,19 @@
 //missile_move
 //detirmines the movement of a missile
 
-module	missile_move	(	
+module missile_move	(	
  
-					input	logic	clk,
-					input	logic	resetN,
-					input	logic	startOfFrame,        	// short pulse every start of frame 30Hz
-					
-					input logic fire,							//at posedge move to initial X position, start movement
-					input logic hit,							//stop movement
-					input logic [10:0] playerPositionX,	//initial x position 
-					
-					output	logic	[10:0]	object_topLeftX,// output the top left corner 
-					output	logic	[10:0]	object_topLeftY
-					
+		input	logic	clk,
+		input	logic	resetN,
+		input	logic	startOfFrame,        	// short pulse every start of frame 30Hz
+		
+		input logic fire,							//at posedge move to initial X position, start movement
+		input logic hit,							//stop movement
+		input logic [10:0] playerPositionX,	//initial x position 
+		
+		output	logic	[10:0]	object_topLeftX,// output the top left corner 
+		output	logic	[10:0]	object_topLeftY
+		
 );
 
 
@@ -33,31 +33,49 @@ const int	y_FRAME_SIZE	=	479 * MULTIPLIER;
 int topLeftX_tmp, topLeftY_tmp; // local parameters 
 logic firing; //object state, 1-fire, 0-dont fire
 
-int mid_spaceship = playerPositionX + SPACESHIP_SIZE/2 ;
+logic mid_spaceship;
 
 // position calculate 
 
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 always_ff@(posedge clk or negedge resetN)
 begin
-	
-	if(!resetN || hit == 1'b1 || (topLeftY_tmp <= 5 ))
+	if(!resetN)
 	begin
 		topLeftX_tmp	<= INITIAL_X * MULTIPLIER;
 		topLeftY_tmp	<= INITIAL_Y * MULTIPLIER;
 		firing <= 0;
 	end
-	else begin
+	else begin	
+		if((hit == 1'b1) || (topLeftY_tmp <= 5 ))
+		begin
+			topLeftX_tmp	<= INITIAL_X * MULTIPLIER;
+			topLeftY_tmp	<= INITIAL_Y * MULTIPLIER;
+			firing <= 0;
+		end
+		else begin
+					
+			if (fire == 1'b1) begin
+				firing <= 1'b1;
 				
-		if (fire == 1'b1) begin
-			firing <= 1'b1;
-			topLeftX_tmp <= mid_spaceship * MULTIPLIER;
+				////////////
+				//this can be a *bug*.
+				//due to the late "all together calculation of everything
+				//if needed, move to a single, without variable, line
+				//plz try to come up with a better idea,
+				// trying to calculate mid_spaceship outside of am always block
+				// is doomed to fail.
+				////////////
+				
+				
+				mid_spaceship <= playerPositionX + SPACESHIP_SIZE/2 ;
+				topLeftX_tmp <= mid_spaceship * MULTIPLIER;
+			end
+				
+			if (startOfFrame == 1'b1 && firing == 1'b1) begin //startOfFrame perform only 30 times per second, fire determines the movement
+				topLeftY_tmp  <= topLeftY_tmp + Y_SPEED; 
+			end
 		end
-			
-		if (startOfFrame == 1'b1 && firing == 1'b1) begin //startOfFrame perform only 30 times per second, fire determines the movement
-			topLeftY_tmp  <= topLeftY_tmp + Y_SPEED; 
-		end
-		
 	end
 end
 

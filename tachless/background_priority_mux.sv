@@ -32,7 +32,7 @@ begin
 			if (IceDrawingRequest == 1'b1 )   
 				tmpRGB <= IceRGB;  //seconed priority 
 			else begin
-				tmpRGB <= backGroundRGB ; // last priority 
+				tmpRGB <= BasicBackgroundRGB ; // last priority 
 			end
 		end
 	end ; 

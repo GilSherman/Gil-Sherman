@@ -1,7 +1,7 @@
 Quartus Prime Archive log --	C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.qarlog
 
 Archive:	C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.qar
-Date:		Tue Aug 20 01:17:30 2019
+Date:		Wed Aug 21 00:52:38 2019
 Quartus Prime		17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 	=========== Files Selected: ===========
@@ -27,6 +27,7 @@ C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/keyToggle_decoder.s
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/lpf.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/Debug/rtl/random.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/ALL_TIME.sv
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/Keyboard.bdf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/Lab1Demo.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/TOP_LVL.bdf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/background_priority_mux.sv
@@ -38,13 +39,9 @@ C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/game_score.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/missile_move.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/space_object_move.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/tachless/spaceship_move.sv
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/ALL_TIME.bsf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/DE10_Standard_Audio.sdc
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.archive.rpt
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.qarlog
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.qpf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.qsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/Lab1Demo.restore.rpt
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/KEYBOARD/keyPad_decoder.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/SinTable.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/MSS/TOP_MSS_DEMO.bdf
@@ -65,39 +62,38 @@ C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/smileyBitMap.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/smileyBitMapX2.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/smileyface_move.sv
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/VGA/square_object.sv
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/audio_codec_controller/audio_codec_controller.qarlog
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/RTL/audio_codec_controller/audio_codec_controller.qxp
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/__Lab1Demo.auto.qarlog
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/assignment_defaults.qdf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/background_priority_mux.bsf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/basicBackground.bsf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/basicBackground.qip
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/basicBackground.v
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/basicBackground_bb.v
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/collision_detector.bsf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/constraints/DE10_Standard_Audio.sdc
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/constraints/pin.tcl
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/dynamic_object_priority_mux.bsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/enemy_generator.bsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/missile_move.bsf
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/fire.bsf
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/fire.qip
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/fire.v
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/fire_bb.v
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/left.bsf
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/left.qip
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/left.v
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/left_bb.v
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Chain1.cdf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.done
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.flow.rpt
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.rpt
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.smsg
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/output_files/Lab1Demo.map.summary
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/player_object.bsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/random.bsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/space_object_move.bsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/spaceship_move.bsf
-C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/square_object.bsf
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/right.bsf
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/right.qip
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/right.v
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/right_bb.v
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/stp2.stp
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/topLeftXYZ.v
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx.bsf
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx.qip
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx.v
 C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/tplftx_bb.v
-	======= Total: 92 files to archive =======
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/up.bsf
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/up.qip
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/up.v
+C:/Users/talsh/Desktop/MABADAA/proyect/Gil-Sherman/vga/up_bb.v
+	======= Total: 88 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.

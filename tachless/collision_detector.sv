@@ -1,6 +1,6 @@
 //collision_detector
 //detecting collisions
-
+// remember to add collision type in full version
 module	collision_detector	(	
 		input	logic	clk,
 		input	logic	resetN,

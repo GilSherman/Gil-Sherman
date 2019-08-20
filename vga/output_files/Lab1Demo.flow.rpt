@@ -1,5 +1,5 @@
 Flow report for Lab1Demo
-Tue Aug 20 01:17:28 2019
+Wed Aug 21 00:52:06 2019
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -38,24 +38,29 @@ agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Flow Summary                                                              ;
-+-----------------------------+---------------------------------------------+
-; Flow Status                 ; Flow Failed - Tue Aug 20 01:17:28 2019      ;
-; Quartus Prime Version       ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
-; Revision Name               ; Lab1Demo                                    ;
-; Top-level Entity Name       ; background_priority_mux                     ;
-; Family                      ; Cyclone V                                   ;
-; Device                      ; 5CSXFC6D6F31C6                              ;
-; Timing Models               ; Final                                       ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Wed Aug 21 00:51:39 2019       ;
+; Quartus Prime Version           ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
+; Revision Name                   ; Lab1Demo                                    ;
+; Top-level Entity Name           ; TOP_LVL                                     ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSXFC6D6F31C6                              ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 361 / 41,910 ( < 1 % )                      ;
+; Total registers                 ; 507                                         ;
+; Total pins                      ; 33 / 499 ( 7 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                               ;
+; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                               ;
+; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                               ;
+; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                               ;
+; Total PLLs                      ; 0 / 15 ( 0 % )                              ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -63,63 +68,80 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/20/2019 01:17:09 ;
+; Start date & time ; 08/21/2019 00:48:07 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab1Demo            ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                    ;
-+-------------------------------------+----------------------------------------+---------------+-------------------------+------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name             ; Section Id ;
-+-------------------------------------+----------------------------------------+---------------+-------------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 176770275589510.156625302922900        ; --            ; --                      ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                      ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                      ; --         ;
-; MISC_FILE                           ; ../Debug/keyval2.bsf                   ; --            ; --                      ; --         ;
-; MISC_FILE                           ; ../Debug/keyval2_bb.v                  ; --            ; --                      ; --         ;
-; MISC_FILE                           ; ../Debug/keyval1.bsf                   ; --            ; --                      ; --         ;
-; MISC_FILE                           ; ../Debug/keyval1_bb.v                  ; --            ; --                      ; --         ;
-; MISC_FILE                           ; tplftx.bsf                             ; --            ; --                      ; --         ;
-; MISC_FILE                           ; tplftx_bb.v                            ; --            ; --                      ; --         ;
-; MISC_FILE                           ; basicBackground.bsf                    ; --            ; --                      ; --         ;
-; MISC_FILE                           ; basicBackground_bb.v                   ; --            ; --                      ; --         ;
-; NUM_PARALLEL_PROCESSORS             ; All                                    ; --            ; --                      ; --         ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; background_priority_mux ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; background_priority_mux ; Top        ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; background_priority_mux ; Top        ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                      ; --         ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                      ; --         ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                      ; --         ;
-; SMART_RECOMPILE                     ; On                                     ; Off           ; --                      ; --         ;
-; TOP_LEVEL_ENTITY                    ; background_priority_mux                ; Lab1Demo      ; --                      ; --         ;
-+-------------------------------------+----------------------------------------+---------------+-------------------------+------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 176770275589510.156633768742400        ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
+; MISC_FILE                           ; ../Debug/keyval2.bsf                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; ../Debug/keyval2_bb.v                  ; --            ; --          ; --         ;
+; MISC_FILE                           ; ../Debug/keyval1.bsf                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; ../Debug/keyval1_bb.v                  ; --            ; --          ; --         ;
+; MISC_FILE                           ; tplftx.bsf                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; tplftx_bb.v                            ; --            ; --          ; --         ;
+; MISC_FILE                           ; basicBackground.bsf                    ; --            ; --          ; --         ;
+; MISC_FILE                           ; basicBackground_bb.v                   ; --            ; --          ; --         ;
+; MISC_FILE                           ; right.bsf                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; right_bb.v                             ; --            ; --          ; --         ;
+; MISC_FILE                           ; fire.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; fire_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; left.bsf                               ; --            ; --          ; --         ;
+; MISC_FILE                           ; left_bb.v                              ; --            ; --          ; --         ;
+; MISC_FILE                           ; up.bsf                                 ; --            ; --          ; --         ;
+; MISC_FILE                           ; up_bb.v                                ; --            ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; All                                    ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; TOP_LVL     ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; TOP_LVL     ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; TOP_LVL     ; Top        ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --         ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --         ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
+; SMART_RECOMPILE                     ; On                                     ; Off           ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; TOP_LVL                                ; Lab1Demo      ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:19     ; 1.0                     ; 4773 MB             ; 00:00:39                           ;
-; Total                  ; 00:00:19     ; --                      ; --                  ; 00:00:39                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:41     ; 1.0                     ; 4900 MB             ; 00:01:20                           ;
+; Fitter                    ; 00:01:30     ; 1.0                     ; 6209 MB             ; 00:02:28                           ;
+; Assembler                 ; 00:00:09     ; 1.0                     ; 4839 MB             ; 00:00:09                           ;
+; TimeQuest Timing Analyzer ; 00:00:24     ; 1.1                     ; 5124 MB             ; 00:00:26                           ;
+; Total                     ; 00:02:44     ; --                      ; --                  ; 00:04:23                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-79O28I4  ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-79O28I4  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-79O28I4  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-79O28I4  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-79O28I4  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off Lab1Demo -c Lab1Demo --disable_all_banners --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off Lab1Demo -c Lab1Demo
+quartus_fit --read_settings_files=on --write_settings_files=off Lab1Demo -c Lab1Demo
+quartus_asm --read_settings_files=off --write_settings_files=off Lab1Demo -c Lab1Demo
+quartus_sta Lab1Demo -c Lab1Demo
 
 
 
