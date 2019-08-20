@@ -95,6 +95,11 @@ agreement for further details.
 		"-10"
 		""
 		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"SPACESHIP_SIZE"
+		"20"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
 	(drawing
 		(rectangle (rect 16 16 256 128)(line_width 1))
 	)

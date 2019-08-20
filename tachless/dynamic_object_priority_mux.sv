@@ -4,7 +4,7 @@
 module	dynamic_object_priority_mux(	
 		input	logic	clk,
 		input	logic	resetN,
-		input	logic [7:0]	backGroundRGB,    //reg backgound RGB
+		input	logic [7:0]	backGroundRGB,    	//reg backgound RGB
 		
 		input	logic	[7:0] playerRGB,  			//player RGB
 		input	logic	PlayerDrawingRequest,
@@ -14,6 +14,9 @@ module	dynamic_object_priority_mux(
 		
 		input	logic	[7:0] monsterRGB, 			//monster RGB
 		input	logic	MonsterDrawingRequest,
+		
+		input	logic	[7:0] scoreRGB, 				//SCORE RGB
+		input	logic	scoreDrawingRequest,
 
 		output logic	[7:0] redOut, 			// full 24 bits color output
 		output logic	[7:0] greenOut, 
@@ -36,16 +39,20 @@ begin
 			tmpRGB	<= 8'b0;
 	end
 	else begin
-		if (PlayerDrawingRequest == 1'b1 )   
-			tmpRGB <= playerRGB;  //first priority 
-		else begin
-			if (MissileDrawingRequest == 1'b1 )   
-				tmpRGB <= missileRGB;  //seconed priority 
+		if (scoreDrawingRequest == 1'b1 )   
+				tmpRGB <= scoreRGB;  //first priority 
 			else begin
-				if (MonsterDrawingRequest == 1'b1 )   
-					tmpRGB <= monsterRGB;  //third priority 
-				else
-					tmpRGB <= backGroundRGB ; // last priority 
+			if (PlayerDrawingRequest == 1'b1 )   
+				tmpRGB <= playerRGB;  //seconed priority 
+			else begin
+				if (MissileDrawingRequest == 1'b1 )   
+					tmpRGB <= missileRGB;  //third priority 
+				else begin
+					if (MonsterDrawingRequest == 1'b1 )   
+						tmpRGB <= monsterRGB;  //forth priority 
+					else
+						tmpRGB <= backGroundRGB ; // last priority 
+				end
 			end
 		end
 	end ; 
